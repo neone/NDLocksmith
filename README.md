@@ -4,9 +4,9 @@ A powerful, protocol-oriented library for working with the keychain in Swift.
 
 - [x] 📱 iOS 13.0+
 
-// Not supported at this point
-- [  ] 💻 Mac OS X 10.10+
-- [ ] ⌚️ watchOS 2
+// Not officailly supported at this point, although it may work. Try it and found out, then let us know ;) 
+- [ ] 💻 Mac OS X 
+- [ ] ⌚️ watchOS 
 - [ ] 📺 tvOS
 
 
