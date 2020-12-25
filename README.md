@@ -2,16 +2,13 @@
 
 A powerful, protocol-oriented library for working with the keychain in Swift.
 
-- [x] 📱 iOS 8.0+
-- [x] 💻 Mac OS X 10.10+
-- [x] ⌚️ watchOS 2
-- [x] 📺 tvOS
+- [x] 📱 iOS 13.0+
 
-> &nbsp;
->
-> 🚀 I make [Rocket](http://matthewpalmer.net/rocket?utm_source=locksmith&utm_medium=readme&utm_campaign=open_source), an app that gives you Slack-style emoji everywhere on your Mac.
->
-> &nbsp;
+// Not supported at this point
+- [  ] 💻 Mac OS X 10.10+
+- [ ] ⌚️ watchOS 2
+- [ ] 📺 tvOS
+
 
 ## Details
 
@@ -22,27 +19,13 @@ How is Locksmith different to other keychain wrappers?
 * Add functionality to your existing types for free
 * Useful enums and Swift-native types
 
-> Want to read more about Locksmith’s design? I wrote a blog post on [protocol oriented programming in Swift](http://matthewpalmer.net/blog/2015/08/30/protocol-oriented-programming-in-the-real-world/).
+> This package simply refactors the original work of Matthew Palmer into a pure Swift Package. 
+> Want to read more about Locksmith’s design? He wrote a blog post on [protocol oriented programming in Swift](http://matthewpalmer.net/blog/2015/08/30/protocol-oriented-programming-in-the-real-world/).
 
 ## Installation
 
-[![Version](https://img.shields.io/cocoapods/v/Locksmith.svg?style=flat)](http://cocoadocs.org/docsets/Locksmith)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Build Status](https://travis-ci.org/matthewpalmer/Locksmith.svg?branch=master)](https://travis-ci.org/matthewpalmer/Locksmith)
 
-* Locksmith 4.0 and greater is Swift 4 compatible. See the `swift-3.1` branch for compatibility with older versions of Swift.
 
-### CocoaPods
-
-Locksmith is available through [CocoaPods](http://cocoapods.org).
-
-    pod 'Locksmith'
-
-### Carthage
-
-Locksmith is available through [Carthage](https://github.com/Carthage/Carthage).
-
-    github "matthewpalmer/Locksmith"
 
 ## Quick start
 
