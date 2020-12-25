@@ -1,6 +1,6 @@
 //
-//  LocksmithTests.swift
-//  LocksmithTests
+//  NDLocksmithTests.swift
+//  NDLocksmithTests
 //
 //  Created by Matthew Palmer on 27/06/2015.
 //  Copyright © 2015 Matthew Palmer. All rights reserved.
@@ -9,7 +9,7 @@
 import XCTest
 import Locksmith
 
-class LocksmithTests: XCTestCase {
+class NDLocksmithTests: XCTestCase {
     let userAccount = "myUser"
     let service = "myService"
     

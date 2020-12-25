@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Locksmith",
+    name: "NDLocksmith",
     platforms: [
         .iOS(.v13)
     ],
 
     products: [
-        .library(name: "Locksmith", targets: ["Locksmith"])
+        .library(name: "NDLocksmith", targets: ["NDLocksmith"])
     ],
     
     dependencies: [
@@ -19,10 +19,10 @@ let package = Package(
     
     targets: [
         .target(
-            name: "Locksmith",
+            name: "NDLocksmith",
             dependencies: []),
         .testTarget(
-            name: "LocksmithTests",
-            dependencies: ["Locksmith"])
+            name: "NDLocksmithTests",
+            dependencies: ["NDLocksmith"])
     ]
 )
