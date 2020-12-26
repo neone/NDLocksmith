@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import Locksmith
+import NDLocksmith
 
 class NDLocksmithTests: XCTestCase {
     let userAccount = "myUser"
